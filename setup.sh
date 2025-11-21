@@ -33,11 +33,11 @@ apt-get install -y \
     libasound2 libgbm1 libxshmfence1 libx11-xcb1 \
     libgoogle-perftools4 libtcmalloc-minimal4 procps software-properties-common espeak-ng
 
-echo "Adding tesseract PPA..."
-add-apt-repository -y ppa:alex-p/tesseract-ocr-devel
+#echo "Adding tesseract PPA..."
+#add-apt-repository -y ppa:alex-p/tesseract-ocr-devel
 
 echo "Installing Python and tesseract..."
-apt-get update && apt-get install -y \
+apt-get install -y \
     tesseract-ocr libtesseract-dev
 
 echo "Cleaning up..."
