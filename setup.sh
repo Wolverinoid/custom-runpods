@@ -73,7 +73,7 @@ cd /app
 
 tar -zxvf custom-node.tar.gz
 
-rm comfy.tar.gz
+rm custom-node.tar.gz
 
 deactivate
 
