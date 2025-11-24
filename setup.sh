@@ -22,6 +22,14 @@ set -e
 
 export_env_vars
 
+# Check if /app/cnode/start.sh already exists
+if [ -f /app/cnode/start.sh ]; then
+    echo "/app/cnode/start.sh already exists, running it directly..."
+    cd /app/cnode
+    ./start.sh
+    exit 0
+fi
+
 echo "Updating package lists..."
 apt-get update
 
