@@ -89,6 +89,7 @@ cd /app/cnode
 
 python3.11 -m venv --upgrade venv
 python3.11 -m venv --upgrade newvenv
+python3.11 -m venv --upgrade deepseekocrvenv
 
 echo "Setup complete!"
 
