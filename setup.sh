@@ -92,6 +92,8 @@ python3.11 -m venv --upgrade newvenv
 python3.11 -m venv --upgrade deepseekocrvenv
 python3.11 -m venv --upgrade /app/external/ACE-Step-1.5/.venv
 
+/app/external/ACE-Step-1.5/.venv/bin/pip install boto3
+
 echo "Setup complete!"
 
 ./start.sh
