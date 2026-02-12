@@ -90,6 +90,7 @@ cd /app/cnode
 python3.11 -m venv --upgrade venv
 python3.11 -m venv --upgrade newvenv
 python3.11 -m venv --upgrade deepseekocrvenv
+python3.11 -m venv --upgrade /app/external/ACE-Step-1.5/.venv
 
 echo "Setup complete!"
 
